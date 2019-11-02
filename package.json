@@ -13,7 +13,7 @@
     "cov": "rm -rf lib-cov; jscoverage lib lib-cov; env JSLIB=lib-cov mocha -R html-cov >coverage.html; open coverage.html"
   },
   "dependencies": {
-    "debug": "~0.7.0",
+    "debug": "~4.1.1",
     "jobqueue": "=0.2.0",
     "reactive": "=0.1.0",
     "subst": "~0.1.0",
